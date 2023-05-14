@@ -81,16 +81,9 @@ In case the preceding explanation wasn't very clear, expressing them as formulas
 - TF(t) = (number of times term t appears in a document) / (total number of terms in the document)
 - IDF(t) = log_e (total number of documents / number of documents with term t in it)
 
-
 TF-IDF is simply the product of these two factors - TF and IDF. Together it encapsulates more information into the vector representation, instead of just using the count of the words like in the bag-of-words vector representation. TF-IDF makes rare words more prominent and ignores common words such as is, of, and that, which may appear a lot of times, but have little importance.
 
 For more information on how TF-IDF works, especially with the mathematical nature of TF-IDF and solved examples, the Wikipedia page [11] on TF-IDF is a good resource.
-
-
-
-
-
-
 
 
 # References
